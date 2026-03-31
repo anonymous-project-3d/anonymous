@@ -250,25 +250,6 @@
   </div>
 </section>
 
-
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
 <!-- Paper abstract -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
@@ -277,8 +258,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+          <p> Recent advances in large-scale pretraining have produced powerful 3D point cloud foundation models with strong performance on a variety of downstream benchmarks. Yet it remains unclear whether these models genuinely support compositional geometric reasoning, or whether their success is largely driven by object-centric pattern recognition. In this work, we examine the compositional geometric understanding of 3D point cloud representations through a diagnostic, modelagnostic probing framework. We posit that robust geometric awareness requires not only encoding the intrinsic geometry of individual objects, but also reasoning over inter-object spatial relationships and global scene layout. To operationalize this view, we probe frozen backbone representations across a suite of tasks, including affordance prediction, grasp pose estimation, semanticgeometry classiffcation, and absolute and relative 6D pose estimation, under both isolated-object and multi-object regimes. Across architectures and tasks, our experiments reveal a consistent pattern. While large pretrained encoders perform strongly on isolated-object geometry, their performance degrades substantially in compositional settings, often more severely than that of classical geometrically biased architectures. These findings suggest that, despite recent progress, existing 3D foundation models may not yet robustly support compositional geometric understanding.
           </p>
         </div>
       </div>
